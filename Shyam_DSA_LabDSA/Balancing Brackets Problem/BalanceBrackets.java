@@ -68,12 +68,12 @@ public class BalanceBrackets {
     public static void main(String[] args) {
         // Output cases :
         //  {[()]} : Balanced
-		//  ({[<>]}) : Balanced
-		//  [<<] : Non Matching Bracket
-		//  [<>]] : Odd number of characters
-		//  [<#|>] : Invalid character
-		System.out.println("Enter the brackets string :");
-		Scanner sc = new Scanner(System.in);
+	//  ({[<>]}) : Balanced
+	//  [<<] : Non Matching Bracket
+	//  [<>]] : Odd number of characters
+	//  [<#|>] : Invalid character
+	System.out.println("Enter the brackets string :");
+	Scanner sc = new Scanner(System.in);
         BalanceBrackets balancer = new BalanceBrackets(sc.nextLine());
         sc.close();
         balancer.check();
